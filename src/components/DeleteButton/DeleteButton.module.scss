@@ -1,0 +1,15 @@
+@import '/src/styles/globalColors';
+
+.deleteButton {
+   font-size: 1em;
+   color: $delete-color;
+   background-color: rgb(249, 233, 232);
+   border: 1px solid $delete-color;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s ease-in-out;
+
+   &:hover {
+      background-color: white;
+   }
+}

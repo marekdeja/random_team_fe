@@ -1,0 +1,17 @@
+@import '/src/styles/globalColors';
+
+.mainButton {
+   margin-bottom: 15px;
+   padding: 10px 20px;
+   font-size: 1.2em;
+   color: #fff;
+   background-color: $primary-color;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s ease-in-out;
+
+   &:hover {
+      background-color: #005ea1;
+   }
+}

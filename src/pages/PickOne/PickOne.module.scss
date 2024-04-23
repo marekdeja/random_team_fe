@@ -1,0 +1,60 @@
+@import '/src/styles/globalColors';
+
+.container {
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.columns {
+   display: flex;
+   justify-content: space-between;
+}
+
+.column {
+   flex: 1;
+
+   &:not(:last-child) {
+      margin-right: 20px;
+   }
+}
+
+.rightColumn {
+   flex: 1;
+   .result {
+      font-weight: bold;
+      color: $add-color;
+      font-size: 1.5em;
+   }
+}
+
+.inputContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+
+   input {
+      flex-grow: 1;
+      margin-right: 10px;
+      font-size: 1em;
+   }
+
+   button {
+      margin: auto;
+   }
+
+   .inputNumber {
+      font-size: 1em;
+      margin-right: 5px;
+      width: 20px;
+      text-align: left;
+   }
+}
+
+.itemsNumberText {
+   font-size: 1em;
+   margin-bottom: 5px;
+}

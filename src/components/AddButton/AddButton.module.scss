@@ -1,0 +1,15 @@
+@import '/src/styles/globalColors';
+
+.addButton {
+   font-size: 1em;
+   color: $add-color;
+   background-color: rgb(224, 241, 211);
+   border: 1px solid $add-color;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s ease-in-out;
+
+   &:hover {
+      background-color: white;
+   }
+}
