@@ -86,7 +86,7 @@ const PickPairs = () => {
       <div className={styles.container}>
          <ModeHeader title="Pick Pairs" description={description} />
 
-         <div className={styles.columns}>
+         <div className={styles.columnsTop}>
             <div className={styles.leftColumn}>
                <FileLoader setInputs={setInputs} fileName={fileName} setFileName={setFileName} />
             </div>

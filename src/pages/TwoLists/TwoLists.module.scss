@@ -128,3 +128,12 @@
 .fileLoaderWrapper {
    text-align: center;
 }
+
+@media (max-width: 500px) {
+   .columns {
+      flex-direction: column;
+   }
+   .rightColumn {
+      margin-top: 20px;
+   }
+}

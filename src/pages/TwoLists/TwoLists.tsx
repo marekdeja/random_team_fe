@@ -106,7 +106,7 @@ const TwoLists = () => {
 
    return (
       <div className={styles.container}>
-         <ModeHeader title="Pick Pairs from Two Lists" description={description} />
+         <ModeHeader title="Pick Pairs from Two Lists" description={description} isTwoLists />
 
          <div className={styles.columns}>
             <div className={styles.leftColumnLists}>

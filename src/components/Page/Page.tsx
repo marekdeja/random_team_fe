@@ -23,7 +23,7 @@ const Page = ({ children }: PageProps) => {
                <span className={pageStyles.firstLetterTitle}>R</span>andom
                <span className={pageStyles.firstLetterTitle}>T</span>eam
             </div>
-            <div className={pageStyles.linkedInSection}>
+            {/* <div className={pageStyles.linkedInSection}>
                <div className={pageStyles.createdBy}>
                   <a
                      href="https://www.linkedin.com/in/marekdeja/"
@@ -40,7 +40,7 @@ const Page = ({ children }: PageProps) => {
                >
                   <img src={linkedInIcon} alt="LinkedIn Profile" height="20px" />
                </a>
-            </div>
+            </div> */}
          </header>
          <main>{children}</main>
       </div>

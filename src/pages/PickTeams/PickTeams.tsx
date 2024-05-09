@@ -90,7 +90,7 @@ const PickTeams = () => {
       <div className={styles.container}>
          <ModeHeader title="Pick Teams" description={description} />
 
-         <div className={styles.columns}>
+         <div className={styles.columnsTop}>
             <div className={styles.leftColumn}>
                <FileLoader setInputs={setInputs} fileName={fileName} setFileName={setFileName} />
             </div>

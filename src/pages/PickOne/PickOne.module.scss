@@ -58,3 +58,12 @@
    font-size: 1em;
    margin-bottom: 5px;
 }
+
+@media (max-width: 500px) {
+   .columns {
+      flex-direction: column;
+   }
+   .rightColumn {
+      margin-top: 20px;
+   }
+}
