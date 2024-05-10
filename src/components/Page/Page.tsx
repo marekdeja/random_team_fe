@@ -1,6 +1,6 @@
 import pageStyles from 'components/Page/Page.module.scss'
 import { useNavigate } from 'react-router-dom'
-import linkedInIcon from '@/assets/linkedin_icon.svg'
+// import linkedInIcon from '@/assets/linkedin_icon.svg'
 
 interface PageProps {
    children: React.ReactNode | React.ReactNode[]
