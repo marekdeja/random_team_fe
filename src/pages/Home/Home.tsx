@@ -10,22 +10,22 @@ const Home = () => {
    const navigate = useNavigate()
 
    const options = [
-      { id: 1, title: 'Pick one', text: 'Pick one random item from a list.', image: pickOneImage },
+      { id: 1, title: 'Pick One', text: 'Pick one random item from a list.', image: pickOneImage },
       {
          id: 2,
-         title: 'Pick pairs',
+         title: 'Pick Pairs',
          text: 'Create random pairs from a list.',
          image: pickPairsImage,
       },
       {
          id: 3,
-         title: 'Pick teams',
+         title: 'Pick Teams',
          text: 'Create random teams from a list. Specify the number of teams or members per team.',
          image: pickTeamsImage,
       },
       {
          id: 4,
-         title: 'Pairs from two lists',
+         title: 'Pick Pairs from Two Lists',
          text: 'Create random pairs from two custom lists.',
          image: pickPairsListsImage,
       },
