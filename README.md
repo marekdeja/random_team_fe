@@ -1,2 +1,4 @@
-# FE_project_start
-Boilerplate for React project with Redux Toolkit, Axios
+Application to help you to pick random items from a list.
+Frontend.
+
+Contact me at: marekdeja.com
